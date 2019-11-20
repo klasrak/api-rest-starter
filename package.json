@@ -1,0 +1,28 @@
+{
+  "name": "api-rest",
+  "version": "0.0.1",
+  "description": "Simple API REST",
+  "main": "index.js",
+  "author": "Danilo Augusto",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^1.19.4",
+    "sequelize": "^5.21.2",
+    "sequelize-cli": "^5.5.1",
+    "sucrase": "^3.10.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.13.0"
+  }
+}
