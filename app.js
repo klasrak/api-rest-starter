@@ -5,7 +5,8 @@ import dotenv from 'dotenv'
 import './src/database'
 
 // Routes
-import HomeRoutes from './src/routes/homeRoutes'
+import homeRoutes from './src/routes/homeRoutes'
+import userRoutes from './src/routes/userRoutes'
 
 dotenv.config()
 
@@ -23,7 +24,8 @@ class App {
   }
 
   routes () {
-    this.app.use('/', HomeRoutes)
+    this.app.use('/', homeRoutes)
+    this.app.use('/users', userRoutes)
   }
 }
 
